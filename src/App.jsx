@@ -1,9 +1,10 @@
 import './App.css'
-import SearchBox from './Components/SearchBox/SearchBox.jsx'
+import WeatherApp from './Components/WeatherApp/WeatherApp.jsx'
+
 export default  function App() {
   return (
     <>
-      <SearchBox/>
+      <WeatherApp/>
     </>
   )
 }

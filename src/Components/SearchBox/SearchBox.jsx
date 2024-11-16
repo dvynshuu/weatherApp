@@ -71,7 +71,7 @@ export default function SearchBox({ updateInfo }) {
         <br />
         <br />
         <Button variant="contained" type="submit">
-          Submit
+          Search
         </Button>
         {error && <p style={{color : "red"}} >No such place in the weather data.</p>}
       </form>
